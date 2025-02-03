@@ -87,7 +87,7 @@ export default function Contact() {
           {/* Adjusted Country Dropdown for Mobile */}
           <select
             name="country"
-            className="w-full p-4 border border-gray-300 rounded-lg sm:w-96" // Adjust width for mobile devices
+            className="w-full sm:w-72 p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#FF6B35] focus:outline-none"
             onChange={handleChange}
           >
             <option>Select Country</option>
