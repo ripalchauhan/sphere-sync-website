@@ -83,11 +83,9 @@ export default function Contact() {
             className="w-full p-4 border border-gray-300 rounded-lg"
             onChange={handleChange}
           />
-
-          {/* Adjusted Country Dropdown for Mobile */}
           <select
             name="country"
-            className="w-full sm:w-72 p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#FF6B35] focus:outline-none"
+            className="w-full p-4 border border-gray-300 rounded-lg"
             onChange={handleChange}
           >
             <option>Select Country</option>
@@ -97,7 +95,6 @@ export default function Contact() {
             <option>Canada</option>
             <option>Australia</option>
           </select>
-
           <input
             type="file"
             name="file"
