@@ -1,0 +1,44 @@
+/* Global Styles for Black Theme */
+
+body {
+    background-color: #121826; /* Dark background color for the entire app */
+    color: white; /* White text color for readability */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set up a dark background for all sections */
+  section, header, footer, div {
+    background-color: #121826; /* Applying black background to sections */
+  }
+  
+  /* Apply white text by default */
+  h1, h2, h3, h4, h5, h6, p, span {
+    color: white;
+  }
+  
+  /* Additional hover effects */
+  a {
+    color: #FACC15; /* Yellow links */
+  }
+  
+  a:hover {
+    color: #EAB308; /* Lighter yellow on hover */
+  }
+  
+  /* Button Styles */
+  button {
+    background-color: transparent;
+    color: inherit;
+    border: 2px solid #FACC15;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #FACC15;
+    color: #1E1E2E;
+  }
+  
