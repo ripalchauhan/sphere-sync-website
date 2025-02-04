@@ -102,8 +102,9 @@ export default function Navbar() {
         </li>
 
         {/* Other Links */}
-        <li><a href="#portfolio" className="hover:text-[#FACC15] transition text-xl font-semibold">PORTFOLIO</a></li>
-        <li><a href="#about" className="hover:text-[#FACC15] transition text-xl font-semibold">ABOUT</a></li>
+        <li><Link href="/portfolio" className="hover:text-[#FACC15] transition">PORTFOLIO</Link></li>
+        <li><Link href="/about" className="hover:text-[#FACC15] transition">ABOUT</Link></li>
+
 
         {/* CONTACT BUTTON */}
         <li>
