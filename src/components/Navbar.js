@@ -209,20 +209,23 @@ export default function Navbar() {
         </div>
 
         {/* Other Links */}
-        <a
-          href="#portfolio"
-          className="block text-xl font-semibold hover:text-[#FACC15] transition pl-6"
-          onClick={() => setMenuOpen(false)}
-        >
-          Portfolio
-        </a>
-        <a
-          href="#about"
-          className="block text-xl font-semibold hover:text-[#FACC15] transition pl-6"
-          onClick={() => setMenuOpen(false)}
-        >
-          About
-        </a>
+        <Link href="/portfolio" passHref>
+          <div
+            className="block text-xl font-semibold hover:text-[#FACC15] transition pl-6"
+            onClick={() => setMenuOpen(false)}
+          >
+            Portfolio
+          </div>
+        </Link>
+
+        <Link href="/about" passHref>
+          <div
+            className="block text-xl font-semibold hover:text-[#FACC15] transition pl-6"
+            onClick={() => setMenuOpen(false)}
+          >
+            About
+          </div>
+        </Link>
 
         {/* Contact Button */}
         <a
